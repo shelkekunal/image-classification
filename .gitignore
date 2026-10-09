@@ -1,0 +1,28 @@
+# Python virtual environment
+
+.venv/
+venv/
+
+# Python cache files
+
+**pycache**/
+*.py[cod]
+.pytest_cache/
+
+# Generated datasets and model artifacts
+
+data/
+*.pt
+*.pth
+*.mar
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Logs and editor files
+
+*.log
+.vscode/
